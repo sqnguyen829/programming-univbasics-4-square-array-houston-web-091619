@@ -4,13 +4,13 @@ def square_array(array)
   new_numbers=[]
   while array.length < counter do
 
-    squared_array[counter] = math.sqrt(array[counter])
+    new_numbers[counter] = math.sqrt(array[counter])
     
     counter++
     
   end
   
-  puts squared_array
+  new_numbers
   
 end
 
