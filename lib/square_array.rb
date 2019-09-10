@@ -1,23 +1,6 @@
 
 
 
-def square_array(array)
-  # your code here
-  
-  new_num = []
-  count = 0
-  
-  while count < array.length do
-    new_num << (array[count] ** 2)
-    count = count + 1
-  end
-  
-  new_num
-  
-end
-
-
-
 
 def square_array(array)
   
@@ -25,7 +8,7 @@ def square_array(array)
   new_numbers=[]
   while count < array.length do
 
-    new_numbers[count] = (Math.sqrt(array[count]))
+    new_numbers[count] = array[count] ** 2
     
     count +=1
     
