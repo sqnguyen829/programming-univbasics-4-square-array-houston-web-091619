@@ -2,7 +2,7 @@ def square_array(array)
   
   count=0
   new_numbers=[]
-  while count < array.size do
+  while count < array.length do
 
     new_numbers[count] = Math.sqrt(array[count])
     
