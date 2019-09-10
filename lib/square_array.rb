@@ -7,7 +7,7 @@ def square_array(array)
   new_num = []
   count = 0
   
-  while count < array.size do
+  while count < array.length do
     new_num << (array[count] ** 2)
     count = count + 1
   end
@@ -15,7 +15,6 @@ def square_array(array)
   new_num
   
 end
-
 
 
 
