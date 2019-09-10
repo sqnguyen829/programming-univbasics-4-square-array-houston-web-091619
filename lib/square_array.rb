@@ -1,10 +1,10 @@
 def square_array(array)
   
-  counter=0
+  count=0
   new_numbers=[]
-  while counter < array.length do
+  while count < array.length do
 
-    new_numbers[counter] = math.sqrt(array[counter])
+    new_numbers[count] = math.sqrt(array[count])
     
     counter +=1
     
