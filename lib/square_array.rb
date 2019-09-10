@@ -1,25 +1,18 @@
 def square_array(array)
-  # your code here
   
-  squared = []
-  count = 0
-  
-  while count < array.size do
-    squared << (array[count] ** 2)
-    count = count + 1
+  counter=0
+  new_numbers=[]
+  while counter < array.length do
+
+    new_numbers[counter] = math.sqrt(array[counter])
+    
+    counter +=1
+    
   end
   
-  squared
+  new_numbers
   
 end
-
-
-
-
-
-
-
-
 
 
 
