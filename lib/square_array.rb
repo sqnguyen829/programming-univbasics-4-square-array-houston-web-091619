@@ -4,9 +4,11 @@ def square_array(array)
   squared_array=[]
   while array.length < counter do
 
-    math.
+    squared_array[counter] = math.sqrt(array[counter])
     
+    counter++
     
+  end
   
 end
 
