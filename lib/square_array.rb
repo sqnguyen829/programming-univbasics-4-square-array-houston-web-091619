@@ -1,3 +1,6 @@
+def square_array(array)
+  
+end
 
 
 
@@ -28,13 +31,7 @@
 
 
 
-
-
-
-
-
-
-
+=begin
 
 
 
