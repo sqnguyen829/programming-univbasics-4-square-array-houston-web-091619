@@ -6,7 +6,7 @@ def square_array(array)
 
     new_numbers[count] = Math.sqrt(array[count])
     
-    counter +=1
+    count +=1
     
   end
   
