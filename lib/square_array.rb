@@ -5,7 +5,7 @@ def square_array(array)
   new_numbers=[]
   while count < array.length do
 
-    new_numbers[count] = array[count] * array[count]
+    new_numbers[count] = Math.squared(array[count])
     
     count +=1
     
@@ -60,5 +60,5 @@ def square_array(array)
   
 end
 
-#question : How come it didN't take Math.sq
+#question : How come it didN't take Math.squared(array[count])
 =end
